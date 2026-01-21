@@ -6,8 +6,13 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <PackageIcon>Invoice_Manager.ico</PackageIcon>
+    <PackageIcon>128x128.ico</PackageIcon>
+    <ApplicationIcon>Assets\Invoice_Manager256x256.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Invoice_Manager256x256.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.2" />
@@ -26,7 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Assets\Invoice_Manager.ico">
+    <None Update="Assets\128x128.ico">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
