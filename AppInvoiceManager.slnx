@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AppInvoiceManager/AppInvoiceManager.csproj" />
+  <Project Path="InvoiceDataAccess/InvoiceDataAccess.Configuration.csproj" />
+  <Project Path="Service/Service.csproj" Id="a9b9e3c4-e08c-4f3e-9a61-32c55f79b425" />
+</Solution>
